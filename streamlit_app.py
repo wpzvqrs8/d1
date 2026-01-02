@@ -9,7 +9,7 @@ GITHUB_REPO = "java_pro"
 BRANCH = "main"
 
 # Token from Streamlit secrets
-TOKEN = st.secrets["git"]
+TOKEN = st.secrets["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"]
 headers = {"Authorization": f"token {TOKEN}"}
 
 # ---- FUNCTIONS ----
