@@ -49,7 +49,7 @@ def update_file(file_path, new_content, sha, message="Update via Streamlit"):
     return response.status_code, response.json()
 
 # ---- STREAMLIT UI ----
-st.title("📝 Java Repo Editor")
+st.title("📝 Java Repo Editor   1")
 
 files = get_java_files()
 if not files:
